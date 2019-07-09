@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.LoginFragment">
+    <include
+        layout="@layout/bar_layout"
+        android:id="@+id/toolbar_Login"/>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:layout_below="@id/toolbar_Login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:text="@string/tv_bienvenidos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_below="@+id/toolbar_Login"
+        android:layout_centerVertical="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.v7.widget.CardView
+            android:layout_gravity="center"
+            app:contentPadding="34sp"
+            app:cardBackgroundColor="@color/colorPrimary"
+            app:cardCornerRadius="8sp"
+            app:cardElevation="8sp"
+            app:cardPreventCornerOverlap="true"
+            android:layout_width="350sp"
+            android:layout_height="450sp">
+            <android.support.design.widget.TextInputLayout
+                android:layout_marginTop="40dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:padding="5dp"
+                    android:id="@+id/edt_login_correo"
+                    android:hint="@string/edt_correo"
+                    android:layout_width="270dp"
+                    android:layout_height="wrap_content" />
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_marginTop="100dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:inputType="textPassword"
+                    android:padding="5dp"
+                    android:id="@+id/edt_login_contrasena"
+                    android:hint="@string/edt_password"
+                    android:layout_width="270dp"
+                    android:layout_height="wrap_content" />
+            </android.support.design.widget.TextInputLayout>
+            <Button
+                style="@style/TextAppearance.AppCompat.Button"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:id="@+id/bt_login"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:text="@string/bt_login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/tv_login_cuenta_nueva"
+                style="@style/TextAppearance.AppCompat.Display1"
+                android:textSize="20sp"
+                android:textColor="@color/colorAccent"
+                android:text="@string/tv_no_tienes_cuenta"
+                android:textStyle="bold"
+                android:layout_marginTop="70dp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+</RelativeLayout>

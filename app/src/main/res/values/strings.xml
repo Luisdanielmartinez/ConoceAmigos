@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Adivina</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tv_bienvenidos">Bienvenidos</string>
+    <string name="edt_escriba_su_correo">Escriba su Correo</string>
+    <string name="edt_password">password</string>
+    <string name="edt_correo">Correo</string>
+    <string name="bt_login">Login</string>
+    <string name="tv_no_tienes_cuenta">No tienes Cuenta?</string>
+    <string name="tv_nombre_de_usuario">Nombre de Usuario</string>
+    <string name="bt_registrar">Registrar</string>
+    <string name="edt_confirmar_password">Confirmar Password</string>
+    <string name="vacio">No puede dejar ningun campo vacio</string>
+    <string name="validar">La contraseña y confirmar contraseña no son iguales o es menor 6 de caracteres</string>
+    <string name="validarPass">El correo no es Valido</string>
+    <string name="create">Se ha creado el usuario</string>
+    <string name="nocreate">No se ha creado el usuario</string>
+    <string name="noValido">Cuenta no validad, Revise el correo o contraseña</string>
+    <string name="tv_escriba_un_mensaje">Escriba un mensaje...</string>
+    <string name="tv_descripcion">descripcion</string>
+</resources>

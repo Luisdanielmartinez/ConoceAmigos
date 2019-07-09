@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "133055053520",
+    "firebase_url": "https://adivina-5d0f2.firebaseio.com",
+    "project_id": "adivina-5d0f2",
+    "storage_bucket": "adivina-5d0f2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:133055053520:android:3b90aa7ef601a0fc",
+        "android_client_info": {
+          "package_name": "com.example.adivina"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "133055053520-vmtulj8g41tqd3p3p3et8hld5g7vd269.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.adivina",
+            "certificate_hash": "432bb8fb86a693f25cb79c2516e8b87a4371b0af"
+          }
+        },
+        {
+          "client_id": "133055053520-rvfumih3c7p4hv8rhogt2ctvrkqee3pi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFZXlKsFElH84AvXu3PUkJcgyVV7F6AJc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "133055053520-rvfumih3c7p4hv8rhogt2ctvrkqee3pi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
